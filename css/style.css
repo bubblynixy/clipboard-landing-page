@@ -1,0 +1,140 @@
+@font-face {
+    font-family: Font ;
+    src: url(../fonts/Bai_Jamjuree/BaiJamjuree-Medium.ttf);
+}
+body{
+    font-size: 18px;
+    font-family: "Font"
+}
+.body{
+    width: fit-content;
+    margin: auto;
+    background-color: white;
+}
+.header{
+    background-image: url(../images/bg-header-desktop.png);
+    display: block;
+    padding: 10px;
+    margin: 40px;
+    text-align: center;
+}
+.header img{
+    height:100px;
+    width: 100px;
+}
+#headingText{
+    font-size: 20px;
+}
+#ios{
+    background-color:hsl(171, 66%, 44%) ;
+}
+#buttons{
+    display: flex;
+    gap: 1em;
+    margin: auto;
+    width: fit-content;
+}
+#buttons button{
+    padding:10px 20px 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 50px;
+}
+#mac{
+    background-color: hsl(233, 100%, 69%);
+}
+.content1{
+    text-align: center;
+    margin: 40px;
+}
+.content2{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    text-align: left;
+    align-items: center;
+    margin: 40px;
+}
+.content3{
+    text-align: center;
+    margin: 20px;
+}
+.content4{
+    text-align: center;
+    margin: 40px;
+}
+.content5{
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+    justify-content: space-between;
+}
+.content6{
+    margin: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.content2 img{
+    height:400px;
+    width: 600px;
+}
+.contentimage1{
+    margin: 20px;
+    padding: 40px;
+}
+.content3 img{
+    height: 400px;
+    width: 600px;
+}
+#headingText{
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+    font-size: 30px;
+}
+#semiheading{
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+    font-size: 25px;
+}
+#heading1{
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+    font-size: 20px;
+}
+#subtext{
+    color: hsl(201, 11%, 66%);
+}
+.cards{
+    text-align: center;
+}
+.bigcontent{
+    background-color: hsla(0, 0%, 91%, 0.938);
+}
+.content7{
+    gap: 10em;
+    display: flex;
+    align-items: center;
+    margin: 10px 200px;
+}
+.imagetext{
+    display: flex;
+    align-items: center;
+    gap: 5em;
+}
+.imagetext img{
+    height: 5cap;
+}
+.semicontent{
+    display: flex;
+    gap: 3em;
+}
+#subtext2{
+    color: hsl(210, 10%, 33%);
+}
+.icons img{
+    height: 1cap;
+}
